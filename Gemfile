@@ -7,6 +7,7 @@ end
 
 gem 'solidus'
 gem 'solidus_auth_devise'
+gem 'solidus_graphql', git: 'https://github.com/valiants/solidus_graphql', branch: 'master'
 gem 'dotenv-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -50,3 +51,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'graphiql-rails', group: :development

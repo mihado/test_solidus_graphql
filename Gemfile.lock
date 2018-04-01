@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/valiants/solidus_graphql
+  revision: f3d064a27cb5fadc9fb30eb454e269628c505d6f
+  branch: master
+  specs:
+    solidus_graphql (2.5.0)
+      graphql (~> 1.7)
+      solidus_api (= 2.5.0)
+      solidus_core (= 2.5.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -92,6 +102,7 @@ GEM
       activerecord (>= 4.0.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    graphql (1.7.13)
     handlebars_assets (0.23.2)
       execjs (~> 2.0)
       sprockets (>= 2.0.0)
@@ -324,6 +335,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   solidus
   solidus_auth_devise
+  solidus_graphql!
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
