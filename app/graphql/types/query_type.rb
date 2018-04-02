@@ -3,5 +3,6 @@ Types::QueryType = GraphQL::ObjectType.define do
   # Add root-level fields here.
   # They will be entry points for queries on your schema.
 
-  field :products, Solidus::Graphql::ProductsField
+  field :products, Solidus::GraphQL::ProductsField
+  field :taxons,   Solidus::GraphQL::TaxonsField
 end

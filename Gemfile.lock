@@ -1,12 +1,11 @@
 GIT
   remote: https://github.com/valiants/solidus_graphql
-  revision: f3d064a27cb5fadc9fb30eb454e269628c505d6f
+  revision: 0f551794dc2a037877af2855362f70842ce8c16f
   branch: master
   specs:
-    solidus_graphql (2.5.0)
+    solidus_graphql (0.0.1)
       graphql (~> 1.7)
-      solidus_api (= 2.5.0)
-      solidus_core (= 2.5.0)
+      solidus_core (~> 2.5.0)
 
 GEM
   remote: https://rubygems.org/
